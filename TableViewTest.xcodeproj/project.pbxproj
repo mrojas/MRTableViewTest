@@ -21,6 +21,8 @@
 		6005566618FF41F100181841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6005564818FF41F100181841 /* UIKit.framework */; };
 		6005566E18FF41F100181841 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6005566C18FF41F100181841 /* InfoPlist.strings */; };
 		6005567018FF41F100181841 /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6005566F18FF41F100181841 /* TableViewTestTests.m */; };
+		6005567B18FF422400181841 /* MRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6005567A18FF422400181841 /* MRItem.m */; };
+		6005567E18FF424000181841 /* MRItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6005567D18FF424000181841 /* MRItemTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		6005566B18FF41F100181841 /* TableViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		6005566D18FF41F100181841 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6005566F18FF41F100181841 /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
+		6005567918FF422400181841 /* MRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRItem.h; sourceTree = "<group>"; };
+		6005567A18FF422400181841 /* MRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRItem.m; sourceTree = "<group>"; };
+		6005567C18FF424000181841 /* MRItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRItemTableViewCell.h; sourceTree = "<group>"; };
+		6005567D18FF424000181841 /* MRItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRItemTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				6005565A18FF41F100181841 /* MRViewController.m */,
 				6005565C18FF41F100181841 /* Images.xcassets */,
 				6005564B18FF41F100181841 /* Supporting Files */,
+				6005567918FF422400181841 /* MRItem.h */,
+				6005567A18FF422400181841 /* MRItem.m */,
+				6005567C18FF424000181841 /* MRItemTableViewCell.h */,
+				6005567D18FF424000181841 /* MRItemTableViewCell.m */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -251,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6005565118FF41F100181841 /* main.m in Sources */,
+				6005567B18FF422400181841 /* MRItem.m in Sources */,
+				6005567E18FF424000181841 /* MRItemTableViewCell.m in Sources */,
 				6005565B18FF41F100181841 /* MRViewController.m in Sources */,
 				6005565518FF41F100181841 /* MRAppDelegate.m in Sources */,
 			);
